@@ -1,1 +1,22 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+  --font-primary: "Inter";
+
+  --font-decorate: "PressStart2P";
+
+  --font-weight-card-text: 400;
+
+  --font-weight-card-title: 800;
+
+  --text-stroke-color: #fff;
+
+  --accent-color: #000;
+
+  --text-color: white;
+
+  --bg-color: black;
+
+  --hover-color: black;
+
+  --text-hover: white;
+}
