@@ -564,25 +564,23 @@
         </article>
       </section>
 
-      <section class="save">
-        <button
-          type="button"
-          onclick="window['dialog-save'].showModal()"
-          class="hover-button button save-button"
-          id="saveDialogButton"
+      <button
+        type="button"
+        onclick="window['dialog-save'].showModal()"
+        class="hover-button button save-button"
+        id="saveDialogButton"
+      >
+        <svg
+          class="save-icon"
+          width="21"
+          height="21"
+          viewBox="0 0 39 39"
+          aria-hidden="true"
         >
-          <svg
-            class="save-icon"
-            width="21"
-            height="21"
-            viewBox="0 0 39 39"
-            aria-hidden="true"
-          >
-            <use href="./svg/floppy_small.svg#floppy_small"></use>
-          </svg>
-          <span class="save-text">Сохранить на память</span>
-        </button>
-      </section>
+          <use href="./svg/floppy_small.svg#floppy_small"></use>
+        </svg>
+        Сохранить на память
+      </button>
     </main>
     <dialog class="floppy-dialog" id="dialog-save">
       <div class="floppy_button-dialog">
