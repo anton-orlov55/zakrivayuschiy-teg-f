@@ -19,4 +19,31 @@
   --hover-color: black;
 
   --text-hover: white;
+
+  --contour-color: #000;
+
+  --animation-fill-color: #ff0000;
+
+  --hover-fill-color: var(--contour-color);
+
+  --stripes-color: rgba(211, 211, 211, 0.3); /* #d3d3d3 с прозрачностью 30% */
+  --bg-gradient: linear-gradient(
+    to bottom,
+    #e7e7e7 0%,
+    #e7e7e7 0.01%,
+    #1a1a1a 100%
+  );
+  --horizontal-stripes: repeating-linear-gradient(
+    to right,
+    var(--stripes-color) 0px,
+    var(--stripes-color) 2px,
+    transparent 2px,
+    transparent 4px
+  );
+  --vertical-stripes: repeating-linear-gradient(
+    to bottom,
+    var(--stripes-color) 0px,
+    transparent 2px,
+    transparent 2px
+  );
 }
