@@ -16,28 +16,25 @@
   height: 24px;
 }
 
-
 .like-icon:hover .core {
   fill: var(--hover-fill-color);
-  transition: fill 0.3s linear 0s; 
+  transition: fill 0.3s linear 0s;
 }
 
 .like-icon:hover .main-body {
   fill: var(--hover-fill-color);
-  transition: fill 0.3s linear 0.05s; 
+  transition: fill 0.3s linear 0.05s;
 }
-
 
 .like-icon .core {
   fill: transparent;
-  transition: fill 0.3s linear 0.03s; 
+  transition: fill 0.3s linear 0.03s;
 }
 
 .like-icon .main-body {
   fill: transparent;
-  transition: fill 0.3s linear 0s; 
+  transition: fill 0.3s linear 0s;
 }
-
 
 .like-icon:active .core {
   fill: var(--animation-fill-color);
@@ -49,10 +46,9 @@
   transition: fill 0.3s linear 0.05s;
 }
 
-
 .like-icon.is-liked .core {
   fill: var(--animation-fill-color);
-  transition: fill 0.3s linear 0s;
+  transition: fill 0.3s linear 0.6s;
 }
 
 .like-icon.is-liked .main-body {
@@ -73,12 +69,10 @@
   animation: sparks-visibility 0.3s ease-in 0.3s 1 alternate;
 }
 
-
 .like-icon:not(.is-liked) .contour {
   fill: var(--contour-color);
   transition: fill 0.1s linear;
 }
-
 
 @keyframes heart-scale {
   from {
