@@ -105,7 +105,7 @@ h2 {
   width: 100%;
   font-family: "YourVariableFont", sans-serif;
   font-size: 18px;
-  font-variation-settings: "wght" var(--font-weight-card-text);
+  font-variation-settings: "wght" var(--font-weight-card-title);
   padding: 3px 0px 3px 10px;
   letter-spacing: 0px;
 }
